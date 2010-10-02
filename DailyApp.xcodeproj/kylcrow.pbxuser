@@ -1,0 +1,127 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* DailyApp */ = {
+		activeExec = 0;
+		executables = (
+			ACFD5AAE1257F7BB0040350E /* DailyApp */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = ACFD5AAE1257F7BB0040350E /* DailyApp */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DailyApp */;
+		codeSenseManager = ACFD5AC41257F7BC0040350E /* Code sense */;
+		executables = (
+			ACFD5AAE1257F7BB0040350E /* DailyApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					936,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307754939;
+			PBXWorkspaceStateSaveDate = 307754939;
+		};
+		perUserProjectItems = {
+			ACFD5AC71257FA6E0040350E /* PBXTextBookmark */ = ACFD5AC71257FA6E0040350E /* PBXTextBookmark */;
+			ACFD5AC91257FA6E0040350E /* PBXTextBookmark */ = ACFD5AC91257FA6E0040350E /* PBXTextBookmark */;
+		};
+		sourceControlManager = ACFD5AC31257F7BC0040350E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	ACFD5AAE1257F7BB0040350E /* DailyApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DailyApp;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	ACFD5AC31257F7BC0040350E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	ACFD5AC41257F7BC0040350E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ACFD5AC71257FA6E0040350E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ACFD5AC81257FA6E0040350E /* setup git PATH for non-terminal programs.sh */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	ACFD5AC81257FA6E0040350E /* setup git PATH for non-terminal programs.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = "setup git PATH for non-terminal programs.sh";
+		path = "/Volumes/Git 1.7.2.3 Intel Leopard/setup git PATH for non-terminal programs.sh";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1114, 478}}";
+			sepNavSelRange = "{0, 953}";
+			sepNavVisRange = "{0, 953}";
+		};
+	};
+	ACFD5AC91257FA6E0040350E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ACFD5ACA1257FA6E0040350E /* setup git PATH for non-terminal programs.sh */;
+		name = "setup git PATH for non-terminal programs.sh: 1";
+		rLen = 953;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 0;
+	};
+	ACFD5ACA1257FA6E0040350E /* setup git PATH for non-terminal programs.sh */ = {
+		isa = PBXFileReference;
+		name = "setup git PATH for non-terminal programs.sh";
+		path = "/Volumes/Git 1.7.2.3 Intel Leopard/setup git PATH for non-terminal programs.sh";
+		sourceTree = "<absolute>";
+	};
+}
