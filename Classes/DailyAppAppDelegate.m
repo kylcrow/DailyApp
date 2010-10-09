@@ -20,7 +20,8 @@ static NSUInteger kNumberOfPages = 6;
 
 @implementation DailyAppAppDelegate
 
-@synthesize window, tabBarController, pageControl, scrollView, viewControllers;
+@synthesize window, pageControl, scrollView, viewControllers;
+@synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -43,21 +44,37 @@ static NSUInteger kNumberOfPages = 6;
     pageControlUsed = YES;
 }
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (IBAction)gotoPageSix:(id)sender {
+    int page = pageControl.currentPage;
+	
+    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
+    [self loadScrollViewWithPage:page - 1];
+    [self loadScrollViewWithPage:page];
+    [self loadScrollViewWithPage:page + 1];
     
-    // Override point for customization after application launch.
-	// Add the tab bar controller's view to the window and display.
-    [window addSubview:tabBarController.view];
-    [window makeKeyAndVisible];
+	// update the scroll view to the appropriate page
+    CGRect frame = scrollView.frame;
+    frame.origin.x = frame.size.width * page;
+    frame.origin.y = 0;
+    [scrollView scrollRectToVisible:frame animated:YES];
+    
+	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
+    pageControlUsed = YES;	
+}
 
-	NSMutableArray *controllers = [[NSMutableArray alloc] init];
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+    // view controllers are created lazily
+    // in the meantime, load the array with placeholders which will be replaced on demand
+    NSMutableArray *controllers = [[NSMutableArray alloc] init];
     for (unsigned i = 0; i < kNumberOfPages; i++) {
         [controllers addObject:[NSNull null]];
     }
     self.viewControllers = controllers;
     [controllers release];
 	
-	scrollView.pagingEnabled = YES;
+    // a page is the width of the scroll view
+    scrollView.pagingEnabled = YES;
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * kNumberOfPages, scrollView.frame.size.height);
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
@@ -72,9 +89,6 @@ static NSUInteger kNumberOfPages = 6;
     // load the page on either side to avoid flashes when the user starts scrolling
     [self loadScrollViewWithPage:0];
     [self loadScrollViewWithPage:1];
-	
-
-    return YES;
 }
 
 - (void)loadScrollViewWithPage:(int)page {
@@ -168,23 +182,6 @@ static NSUInteger kNumberOfPages = 6;
      */
 }
 
-
-#pragma mark -
-#pragma mark UITabBarControllerDelegate methods
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-}
-*/
-
-/*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed {
-}
-*/
-
-
 #pragma mark -
 #pragma mark Memory management
 
@@ -195,7 +192,6 @@ static NSUInteger kNumberOfPages = 6;
 }
 
 - (void)dealloc {
-    [tabBarController release];
     [window release];
 	[scrollView release];
 	[pageControl release];

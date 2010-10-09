@@ -15,6 +15,7 @@ static NSArray *__pageControlColorList = nil;
 
 @synthesize pageNumberLabel;
 
+// Creates the color list the first time this method is invoked. Returns one color object from the list.
 + (UIColor *)pageControlColorWithIndex:(NSUInteger)index {
     if (__pageControlColorList == nil) {
         __pageControlColorList = [[NSArray alloc] initWithObjects:[UIColor redColor], [UIColor greenColor], [UIColor magentaColor],

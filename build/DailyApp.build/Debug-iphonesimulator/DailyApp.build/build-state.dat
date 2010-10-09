@@ -1,7 +1,7 @@
 TDailyApp
 v7
 r0
-t307832312.554623
+t308279358.347040
 cCheck dependencies
 cProcessInfoPlistFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Info.plist DailyApp-Info.plist
 cCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
@@ -63,21 +63,21 @@ s370
 i<UIKit/UIKit.h>
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m
-c000000004CA8EE78000000000000094E
-t1286139512
-s2382
+c000000004CAA607300000000000009B6
+t1286234227
+s2486
 i"DailiesController.h"
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.h
-c000000004CA8E3F20000000000000343
-t1286136818
-s835
+c000000004CAFBB9A0000000000000450
+t1286585242
+s1104
 i<UIKit/UIKit.h>
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m
-c000000004CA8E86D0000000000001C51
-t1286137965
-s7249
+c000000004CAFC0BD0000000000001CED
+t1286586557
+s7405
 i"DailyAppAppDelegate.h"
 i"DailiesController.h"
 
@@ -94,9 +94,9 @@ s1445
 i"FirstViewController.h"
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib
-c000000004CA8E75100000000000044DD
-t1286137681
-s17629
+c000000004CAFADE600000000000044EF
+t1286581734
+s17647
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch
 c000000004CA7C03B00000000000000B9
@@ -111,9 +111,9 @@ t1286062139
 s18898
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
-c000000004CA8E9C800000000000080F0
-t1286138312
-s33008
+c000000004CAFBC6C0000000000009B27
+t1286585452
+s39719
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/SecondView.xib
 c000000004CA7C03B00000000000049D0
@@ -121,8 +121,8 @@ t1286062139
 s18896
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o
-t1286139512
-s40444
+t1286234228
+s40468
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList
 c000000004CA8D61C0000000000000196
@@ -130,8 +130,8 @@ t1286133276
 s406
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o
-t1286137973
-s64996
+t1286586558
+s68208
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/FirstViewController.o
 t1286132740
@@ -141,12 +141,24 @@ N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimul
 t1286132740
 s6308
 
+N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/DailiesController.plist
+t2
+s0
+
+N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/DailyAppAppDelegate.plist
+t2
+s0
+
+N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/main.plist
+t2
+s0
+
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-t1286139512
+t1286586558
 s306
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM
-t1286139512
+t1286586558
 s102
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Archive.nib
@@ -158,12 +170,12 @@ t1286132738
 s2876
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Dailies.nib
-t1286137685
-s2048
+t1286581736
+s2051
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-t1286139512
-s25040
+t1286586558
+s31020
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/FirstView.nib
 t2
@@ -174,8 +186,8 @@ t1286132738
 s595
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/MainWindow.nib
-t1286138315
-s3980
+t1286585455
+s5519
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/PkgInfo
 t1286132738
@@ -195,18 +207,61 @@ N/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1286132740
 s15211536
 
+N/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch.pth
+t2
+s0
+
 NDailyApp-Info.plist
 c000000004CA7C03B000000000000038D
 t1286062139
 s909
 
+CAnalyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m
+s307844725.045303
+e307844725.202343
+r1
+xAnalyze
+x/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m
+oIn file included from <built-in>:121:
+o<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found
+o #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"
+o          ^
+o1 error generated.
+lSLF07#2@76"Analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m307844725#307844725#0(458"In file included from <built-in>:121:<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"          ^1 error generated.1(25@46"Analyzer skipped this file due to parse errors307844725#18446744073709551615#0#1(25@179"'/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found307844725#18446744073709551615#0#0(6@14"<command line>307844725#1#0#1#0#0"0(6@14"<command line>307844725#0#0#0#0#0"0(0#0#68"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m8602711584#2007"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch --analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/DailiesController.plist0#
+
+CAnalyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m
+s307844725.002121
+e307844725.158607
+r1
+xAnalyze
+x/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m
+oIn file included from <built-in>:121:
+o<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found
+o #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"
+o          ^
+o1 error generated.
+lSLF07#2@78"Analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m307844725#307844725#0(458"In file included from <built-in>:121:<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"          ^1 error generated.1(25@46"Analyzer skipped this file due to parse errors307844725#18446744073709551615#0#1(25@179"'/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found307844725#18446744073709551615#0#0(6@14"<command line>307844725#1#0#1#0#0"0(6@14"<command line>307844725#0#0#0#0#0"0(0#0#70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m8603093664#2011"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch --analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/DailyAppAppDelegate.plist0#
+
+CAnalyze /Users/kylcrow/Desktop/DailyApp/DailyApp/main.m
+s307844724.882446
+e307844725.045216
+r1
+xAnalyze
+x/Users/kylcrow/Desktop/DailyApp/DailyApp/main.m
+oIn file included from <built-in>:121:
+o<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found
+o #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"
+o          ^
+o1 error generated.
+lSLF07#2@55"Analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/main.m307844724#307844725#0(458"In file included from <built-in>:121:<command line>:1:10: fatal error: '/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found #include "/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch"          ^1 error generated.1(25@46"Analyzer skipped this file due to parse errors307844724#18446744073709551615#0#1(25@179"'/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch' file not found307844724#18446744073709551615#0#0(6@14"<command line>307844724#1#0#1#0#0"0(6@14"<command line>307844724#0#0#0#0#0"0(0#0#47"/Users/kylcrow/Desktop/DailyApp/DailyApp/main.m8604914624#1973"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch --analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/main.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/StaticAnalyzer/normal/i386/main.plist0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies307832312#307832312#0(0"0(0#1#0"8603086688#0"0#
+lSLF07#2@18"Check dependencies308279358#308279358#0(0"0(0#1#0"8612970816#0"0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s307832312.242231
-e307832312.492427
+s307927028.586369
+e307927028.730644
 r1
 xCompileC
 xbuild/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o
@@ -215,11 +270,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m307832312#307832312#0(0"0(0#0#68"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m8625089728#2052"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o0#
+lSLF07#2@76"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m307927028#307927028#0(0"0(0#0#68"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m8616666496#2052"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s307830773.185779
-e307830773.354147
+s308279358.032739
+e308279358.302294
 r1
 xCompileC
 xbuild/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o
@@ -228,7 +283,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m307830773#307830773#0(0"0(0#0#70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m8609723488#2056"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o0#
+lSLF07#2@78"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m308279358#308279358#0(0"0(0#0#70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m8606009344#2056"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/FirstViewController.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s307825540.536808
@@ -274,47 +329,45 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF07#2@29"CompileXIB ChallengeScore.xib307825538#307825538#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/kylcrow/Desktop/DailyApp/DailyApp/ChallengeScore.xib8605065440#647"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/ChallengeScore.nib /Users/kylcrow/Desktop/DailyApp/DailyApp/ChallengeScore.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib
-s307830485.438666
-e307830485.828043
+s308274535.670257
+e308274536.053340
 r1
 xCompileXIB
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib
-lSLF07#2@22"CompileXIB Dailies.xib307830485#307830485#0(0"0(0#0#52"/Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib8613412832#633"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Dailies.nib /Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@22"CompileXIB Dailies.xib308274535#308274536#0(0"0(0#0#52"/Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib8603564352#633"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Dailies.nib /Users/kylcrow/Desktop/DailyApp/DailyApp/Dailies.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/FirstView.xib
 r0
 
 CCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
-s307831114.912902
-e307831115.348472
+s308278254.904977
+e308278255.788968
 r1
 xCompileXIB
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib:108: warning: 'Selected Dailies Controller (Dailies)' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
-lSLF07#2@25"CompileXIB MainWindow.xib307831114#307831115#0(239"/* com.apple.ibtool.document.warnings *//Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib:108: warning: 'Selected Dailies Controller (Dailies)' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.1(22@127"'Selected Dailies Controller (Dailies)' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.307831115#18446744073709551615#0#0(6@55"/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib307831112#108#0#108#0#0"0(0#0#55"/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib8625291296#639"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/MainWindow.nib /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib308278254#308278255#0(0"0(0#0#55"/Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib8612419936#639"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/MainWindow.nib /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/SecondView.xib
 r0
 
 CGenerateDSYMFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-s307832312.517558
-e307832312.551746
+s308279358.327978
+e308279358.344284
 r1
 xGenerateDSYMFile
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DailyApp.app.dSYM build/Debug-iphonesimulator/DailyApp.app/DailyApp307832312#307832312#0(0"0(0#0#90"/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp8622372768#454"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DailyApp.app.dSYM build/Debug-iphonesimulator/DailyApp.app/DailyApp308279358#308279358#0(0"0(0#0#90"/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp8611859680#454"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM0#
 
 CLd /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp normal i386
-s307832312.492526
-e307832312.517450
+s308279358.302396
+e308279358.327884
 r1
 xLd
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
 xnormal
 xi386
-lSLF07#2@95"Link /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp307832312#307832312#0(0"0(0#0#0"8623949664#977"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -filelist /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp0#
+lSLF07#2@95"Link /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp308279358#308279358#0(0"0(0#0#0"8613459776#977"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -filelist /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp0#
 
 CProcessInfoPlistFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Info.plist DailyApp-Info.plist
 s307825538.395941
@@ -338,11 +391,87 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile DailyApp_Prefix.pch307825539#307825540#0(0"0(0#0#60"/Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch8605462112#1907"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -c /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch -o /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch.pth DailyApp_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s307844724.473203
+e307844724.812160
+r1
+xProcessPCH
+x/var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch.pth
+xDailyApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:9:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h:10:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIEvent.h:9:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:26:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h:60:23: error: expected function body after function declarator
+o   CFDataRef metadata) CG_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_0);
+o                       ^
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:9:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h:10:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIEvent.h:9:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:8:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h:21:32: note: instantiated from:
+o # define CG_AVAILABLE_STARTING __OSX_AVAILABLE_STARTING
+o                                ^
+o<scratch space>:82:1: note: instantiated from:
+o __AVAILABILITY_INTERNAL__MAC_10_7
+o ^
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:250:91: error: expected a type
+o + (void)animateWithDuration:(NSTimeInterval)duration delay:(NSTimeInterval)delay options:(UIViewAnimationOptions)options animations:(void (^)(void))animations completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+o                                                                                           ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:256:86: error: expected a type
+o + (void)transitionWithView:(UIView *)view duration:(NSTimeInterval)duration options:(UIViewAnimationOptions)options animations:(void (^)(void))animations completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+o                                                                                      ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:258:114: error: expected a type
+o + (void)transitionFromView:(UIView *)fromView toView:(UIView *)toView duration:(NSTimeInterval)duration options:(UIViewAnimationOptions)options completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0); // toView added to fromView.superview, fromView removed from its superview
+o                                                                                                                  ^
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:13:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:187:31: error: unknown type name 'UIApplicationState'
+o @property(nonatomic,readonly) UIApplicationState applicationState __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+o                               ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:190:4: error: expected a type
+o - (UIBackgroundTaskIdentifier)beginBackgroundTaskWithExpirationHandler:(void(^)(void))handler  __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+o    ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:191:28: error: expected a type
+o - (void)endBackgroundTask:(UIBackgroundTaskIdentifier)identifier __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);
+o                            ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:202:45: error: expected a type
+o - (void)registerForRemoteNotificationTypes:(UIRemoteNotificationType)types __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_0);
+o                                             ^
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:206:4: error: expected a type
+o - (UIRemoteNotificationType)enabledRemoteNotificationTypes __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_0);
+o    ^
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:73:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextView.h:82:22: error: unknown type name 'UIDataDetectorTypes'
+o @property(nonatomic) UIDataDetectorTypes dataDetectorTypes __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_3_0);
+o                      ^
+oIn file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:79:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h:54:22: error: unknown type name 'UIDataDetectorTypes'
+o @property(nonatomic) UIDataDetectorTypes dataDetectorTypes __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_3_0);
+o                      ^
+o11 errors generated.
+lSLF07#2@30"Precompile DailyApp_Prefix.pch307844724#307844724#0(8129"In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:9:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h:10:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIEvent.h:9:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:26:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h:60:23: error: expected function body after function declarator   CFDataRef metadata) CG_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_0);                       ^In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:9:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h:10:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIEvent.h:9:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h:8:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h:21:32: note: instantiated from: # define CG_AVAILABLE_STARTING __OSX_AVAILABLE_STARTING                                ^<scratch space>:82:1: note: instantiated from: __AVAILABILITY_INTERNAL__MAC_10_7 ^In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:11:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h:8:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:250:91: error: expected a type + (void)animateWithDuration:(NSTimeInterval)duration delay:(NSTimeInterval)delay options:(UIViewAnimationOptions)options animations:(void (^)(void))animations completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);                                                                                           ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:256:86: error: expected a type + (void)transitionWithView:(UIView *)view duration:(NSTimeInterval)duration options:(UIViewAnimationOptions)options animations:(void (^)(void))animations completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);                                                                                      ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h:258:114: error: expected a type + (void)transitionFromView:(UIView *)fromView toView:(UIView *)toView duration:(NSTimeInterval)duration options:(UIViewAnimationOptions)options completion:(void (^)(BOOL finished))completion __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0); // toView added to fromView.superview, fromView removed from its superview                                                                                                                  ^In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:13:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:187:31: error: unknown type name 'UIApplicationState' @property(nonatomic,readonly) UIApplicationState applicationState __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);                               ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:190:4: error: expected a type - (UIBackgroundTaskIdentifier)beginBackgroundTaskWithExpirationHandler:(void(^)(void))handler  __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);    ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:191:28: error: expected a type - (void)endBackgroundTask:(UIBackgroundTaskIdentifier)identifier __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_4_0);                            ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:202:45: error: expected a type - (void)registerForRemoteNotificationTypes:(UIRemoteNotificationType)types __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_0);                                             ^/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:206:4: error: expected a type - (UIRemoteNotificationType)enabledRemoteNotificationTypes __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_0);    ^In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:73:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextView.h:82:22: error: unknown type name 'UIDataDetectorTypes' @property(nonatomic) UIDataDetectorTypes dataDetectorTypes __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_3_0);                      ^In file included from /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch:7:In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:79:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h:54:22: error: unknown type name 'UIDataDetectorTypes' @property(nonatomic) UIDataDetectorTypes dataDetectorTypes __OSX_AVAILABLE_STARTING(__MAC_NA, __IPHONE_3_0);                      ^11 errors generated.1(25@46"Analyzer skipped this file due to parse errors307844724#18446744073709551615#0#11(25@48"expected function body after function declarator307844724#18446744073709551615#0#0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h302679128#60#0#60#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@142"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h303200621#250#0#250#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@142"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h303200621#256#0#256#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@142"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h303200621#258#0#258#0#0"0(25@38"unknown type name 'UIApplicationState'307844724#18446744073709551615#0#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h303200621#187#0#187#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h303200621#190#0#190#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h303200621#191#0#191#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h303200621#202#0#202#0#0"0(25@15"expected a type307844724#18446744073709551615#0#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h303200621#206#0#206#0#0"0(25@39"unknown type name 'UIDataDetectorTypes'307844724#18446744073709551615#0#0(6@146"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextView.h303200622#82#0#82#0#0"0(25@39"unknown type name 'UIDataDetectorTypes'307844724#18446744073709551615#0#0(6@145"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h303200623#54#0#54#0#0"0(6@155"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h302679128#0#0#0#0#0"0(0#0#60"/Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch5791471273258871808#1844"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -c /Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp_Prefix.pch -o /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bryrdbbcsyawyybjjnlyekmchokt/DailyApp_Prefix.pch.pth0#
+
 CTouch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-s307832312.551842
-e307832312.554585
+s308279358.344372
+e308279358.346998
 r1
 xTouch
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-lSLF07#2@87"Touch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app307832312#307832312#0(0"0(0#0#0"8621751968#345"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app0#
+lSLF07#2@87"Touch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app308279358#308279358#0(0"0(0#0#0"8604751648#345"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app0#
 
