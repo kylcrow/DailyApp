@@ -29,6 +29,11 @@
 @property (nonatomic, retain) IBOutlet UIButton *btnPage6;
 
 - (IBAction)changePage:(id)sender;
+- (IBAction)gotoPageOne:(id)sender;
+- (IBAction)gotoPageTwo:(id)sender;
+- (IBAction)gotoPageThree:(id)sender;
+- (IBAction)gotoPageFour:(id)sender;
+- (IBAction)gotoPageFive:(id)sender;
 - (IBAction)gotoPageSix:(id)sender;
 
 @end

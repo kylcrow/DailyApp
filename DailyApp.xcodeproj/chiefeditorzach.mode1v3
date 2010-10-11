@@ -322,7 +322,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C72BAB5B1258084B00B23258</string>
+										<string>C72BAB5C125997A500B23258</string>
 										<key>history</key>
 										<array>
 											<string>C72BAB501258084500B23258</string>
@@ -524,7 +524,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>C72BAB551258084500B23258</string>
-		<string>/Users/chiefeditorzach/Desktop/DailyApp/DailyApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>246 242 788 504 0 0 1280 778 </string>
