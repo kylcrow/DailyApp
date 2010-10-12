@@ -12,9 +12,17 @@
 @interface DailiesController : UIViewController {
     UILabel *pageNumberLabel;
     int pageNumber;
+	UITextField *txtRandomFact;
+
+	// Database variables
+	NSString *databaseName;
+	NSString *databasePath;
+	
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *pageNumberLabel;
+@property (nonatomic, retain) IBOutlet UITextField *txtRandomFact;
+
 
 - (id)initWithPageNumber:(int)page;
 

@@ -8,6 +8,7 @@
 
 #import "DailyAppAppDelegate.h"
 #import "DailiesController.h"
+#import "RandomFact.h"
 
 static NSUInteger kNumberOfPages = 6;
 
@@ -20,7 +21,7 @@ static NSUInteger kNumberOfPages = 6;
 
 @implementation DailyAppAppDelegate
 
-@synthesize window, pageControl, scrollView, viewControllers;
+@synthesize window, pageControl, scrollView, viewControllers, randomFacts;
 @synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6;
 
 #pragma mark -
@@ -163,6 +164,23 @@ static NSUInteger kNumberOfPages = 6;
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+	
+	// Setup some globals
+	databaseName = @"DailyDB.sql";
+	
+	// Get the path to the documents directory and append the databaseName
+	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDir = [documentPaths objectAtIndex:0];
+	databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
+	
+	// Execute the "checkAndCreateDatabase" function
+	[self checkAndCreateDatabase];
+	
+	// Query the database for all animal records and construct the "animals" array
+	[self readRandomFactsFromDatabase];
+	
+	
+	
     // view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
     NSMutableArray *controllers = [[NSMutableArray alloc] init];
@@ -234,6 +252,69 @@ static NSUInteger kNumberOfPages = 6;
     // A possible optimization would be to unload the views+controllers which are no longer visible
 }
 
+-(void) checkAndCreateDatabase{
+	// Check if the SQL database has already been saved to the users phone, if not then copy it over
+	BOOL success;
+	
+	// Create a FileManager object, we will use this to check the status
+	// of the database and to copy it over if required
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	// Check if the database has already been created in the users filesystem
+	success = [fileManager fileExistsAtPath:databasePath];
+	
+	// If the database already exists then return without doing anything
+	if(success) return;
+	
+	// If not then proceed to copy the database from the application to the users filesystem
+	
+	// Get the path to the database in the application package
+	NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName];
+	
+	// Copy the database from the package to the users filesystem
+	[fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
+	
+	[fileManager release];
+}
+
+-(void) readRandomFactsFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	randomFacts = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Fact, Date, Visited from RandomFacts";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aFact = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				RandomFact *fact = [[RandomFact alloc] initWithFact:aFact date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[randomFacts addObject:fact];
+				
+				[fact release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+		
+	}
+	sqlite3_close(database);
+	
+}
+
+
 // At the begin of scroll dragging, reset the boolean used when scrolls originate from the UIPageControl
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     pageControlUsed = NO;
@@ -291,6 +372,7 @@ static NSUInteger kNumberOfPages = 6;
 }
 
 - (void)dealloc {
+	[randomFacts release];
     [window release];
 	[scrollView release];
 	[pageControl release];

@@ -7,13 +7,15 @@
 //
 
 #import "DailiesController.h"
+#import "DailyAppAppDelegate.h"
+#import "RandomFact.h"
 
 static NSArray *__pageControlColorList = nil;
 
 
 @implementation DailiesController
 
-@synthesize pageNumberLabel;
+@synthesize pageNumberLabel, txtRandomFact;
 
 // Creates the color list the first time this method is invoked. Returns one color object from the list.
 + (UIColor *)pageControlColorWithIndex:(NSUInteger)index {
@@ -47,6 +49,12 @@ static NSArray *__pageControlColorList = nil;
 - (void)viewDidLoad {
 	pageNumberLabel.text = [NSString stringWithFormat:@"Page %d", pageNumber + 1];
     self.view.backgroundColor = [DailiesController pageControlColorWithIndex:pageNumber];
+
+	DailyAppAppDelegate *del = (DailyAppAppDelegate *)[[UIApplication sharedApplication] delegate];
+	RandomFact *temp = (RandomFact *)[del.randomFacts objectAtIndex:2];
+	
+	txtRandomFact.text = temp.fact;
+	
 }
 
 /*
