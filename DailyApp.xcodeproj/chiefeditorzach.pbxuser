@@ -1,10 +1,17 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* DailyAppAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 637}}";
+			sepNavSelRange = "{1233, 0}";
+			sepNavVisRange = "{0, 1323}";
+		};
+	};
 	1D3623250D0F684500981E51 /* DailyAppAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1287}}";
-			sepNavSelRange = "{509, 0}";
-			sepNavVisRange = "{1687, 626}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 5005}}";
+			sepNavSelRange = "{1730, 0}";
+			sepNavVisRange = "{9705, 1743}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* DailyApp */ = {
@@ -13,10 +20,28 @@
 			C72BAB461258082E00B23258 /* DailyApp */,
 		);
 	};
+	28216C950DB411BC00E5133A /* DailiesController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 543}";
+		};
+	};
+	28216C960DB411BC00E5133A /* DailiesController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1157}}";
+			sepNavSelRange = "{1935, 0}";
+			sepNavVisRange = "{989, 1439}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = C72BAB461258082E00B23258 /* DailyApp */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* DailyApp */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DailyApp */,
+		);
 		codeSenseManager = C72BAB581258084500B23258 /* Code sense */;
 		executables = (
 			C72BAB461258082E00B23258 /* DailyApp */,
@@ -27,9 +52,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					833,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -44,15 +69,25 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308530800;
-			PBXWorkspaceStateSaveDate = 308530800;
-		};
-		perUserProjectItems = {
-			C72BAB501258084500B23258 = C72BAB501258084500B23258 /* PBXTextBookmark */;
-			C72BAB5C125997A500B23258 = C72BAB5C125997A500B23258 /* PBXTextBookmark */;
+			PBXPerProjectTemplateStateSaveDate = 308784792;
+			PBXWorkspaceStateSaveDate = 308784792;
 		};
 		sourceControlManager = C72BAB571258084500B23258 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	ACC795B11263DF4000D6F0F4 /* RandomFact.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{163, 303}";
+			sepNavVisRange = "{0, 467}";
+		};
+	};
+	ACC795B21263DF4000D6F0F4 /* RandomFact.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{151, 208}";
+			sepNavVisRange = "{0, 360}";
 		};
 	};
 	C72BAB461258082E00B23258 /* DailyApp */ = {
@@ -71,6 +106,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -81,16 +117,6 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
-	};
-	C72BAB501258084500B23258 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* DailyAppAppDelegate.m */;
-		name = "DailyAppAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 308;
-		vrLoc = 0;
 	};
 	C72BAB571258084500B23258 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -106,14 +132,60 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	C72BAB5C125997A500B23258 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* DailyAppAppDelegate.m */;
-		name = "DailyAppAppDelegate.m: 24";
-		rLen = 0;
-		rLoc = 509;
-		rType = 0;
-		vrLen = 626;
-		vrLoc = 1687;
+	C76977D91267B20700A0681D /* Quote.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{192, 271}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	C76977DA1267B20700A0681D /* Quote.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{168, 184}";
+			sepNavVisRange = "{0, 353}";
+		};
+	};
+	C76977DC1267B2F700A0681D /* Record.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{195, 274}";
+			sepNavVisRange = "{0, 470}";
+		};
+	};
+	C76977DD1267B2F700A0681D /* Record.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{172, 188}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	C76977DF1267B36700A0681D /* Words.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{193, 271}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	C76977E01267B36700A0681D /* Words.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{169, 184}";
+			sepNavVisRange = "{0, 355}";
+		};
+	};
+	C76977E21267B3D900A0681D /* Historicals.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{446, 0}";
+			sepNavVisRange = "{0, 495}";
+		};
+	};
+	C76977E31267B3D900A0681D /* Historicals.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 545}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{0, 390}";
+		};
 	};
 }

@@ -6,6 +6,8 @@
 //  Copyright 2010 Student. All rights reserved.
 //
 
+#include <stdlib.h>
+
 #import "DailiesController.h"
 #import "DailyAppAppDelegate.h"
 #import "RandomFact.h"
@@ -51,7 +53,7 @@ static NSArray *__pageControlColorList = nil;
     self.view.backgroundColor = [DailiesController pageControlColorWithIndex:pageNumber];
 
 	DailyAppAppDelegate *del = (DailyAppAppDelegate *)[[UIApplication sharedApplication] delegate];
-	RandomFact *temp = (RandomFact *)[del.randomFacts objectAtIndex:2];
+	RandomFact *temp = (RandomFact *)[del.randomFacts objectAtIndex:arc4random() % 3];
 	
 	txtRandomFact.text = temp.fact;
 	

@@ -18,6 +18,11 @@
 		ACC795A61263D55800D6F0F4 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC795A51263D55800D6F0F4 /* libsqlite3.0.dylib */; };
 		ACC795A91263DADA00D6F0F4 /* DailyDB.sql in Resources */ = {isa = PBXBuildFile; fileRef = ACC795A81263DADA00D6F0F4 /* DailyDB.sql */; };
 		ACC795B31263DF4000D6F0F4 /* RandomFact.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC795B21263DF4000D6F0F4 /* RandomFact.m */; };
+		C76977DB1267B20700A0681D /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = C76977DA1267B20700A0681D /* Quote.m */; };
+		C76977DE1267B2F700A0681D /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = C76977DD1267B2F700A0681D /* Record.m */; };
+		C76977E11267B36700A0681D /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = C76977E01267B36700A0681D /* Words.m */; };
+		C76977E41267B3D900A0681D /* Historicals.m in Sources */ = {isa = PBXBuildFile; fileRef = C76977E31267B3D900A0681D /* Historicals.m */; };
+		C76977E71267B44900A0681D /* Challenges.m in Sources */ = {isa = PBXBuildFile; fileRef = C76977E61267B44900A0681D /* Challenges.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,16 @@
 		ACC795A81263DADA00D6F0F4 /* DailyDB.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = DailyDB.sql; sourceTree = "<group>"; };
 		ACC795B11263DF4000D6F0F4 /* RandomFact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomFact.h; path = RandomFacts/RandomFact.h; sourceTree = "<group>"; };
 		ACC795B21263DF4000D6F0F4 /* RandomFact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RandomFact.m; path = RandomFacts/RandomFact.m; sourceTree = "<group>"; };
+		C76977D91267B20700A0681D /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
+		C76977DA1267B20700A0681D /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		C76977DC1267B2F700A0681D /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		C76977DD1267B2F700A0681D /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		C76977DF1267B36700A0681D /* Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Words.h; sourceTree = "<group>"; };
+		C76977E01267B36700A0681D /* Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Words.m; sourceTree = "<group>"; };
+		C76977E21267B3D900A0681D /* Historicals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Historicals.h; sourceTree = "<group>"; };
+		C76977E31267B3D900A0681D /* Historicals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Historicals.m; sourceTree = "<group>"; };
+		C76977E51267B44900A0681D /* Challenges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenges.h; sourceTree = "<group>"; };
+		C76977E61267B44900A0681D /* Challenges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenges.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +138,16 @@
 			children = (
 				ACC795B11263DF4000D6F0F4 /* RandomFact.h */,
 				ACC795B21263DF4000D6F0F4 /* RandomFact.m */,
+				C76977D91267B20700A0681D /* Quote.h */,
+				C76977DA1267B20700A0681D /* Quote.m */,
+				C76977DC1267B2F700A0681D /* Record.h */,
+				C76977DD1267B2F700A0681D /* Record.m */,
+				C76977DF1267B36700A0681D /* Words.h */,
+				C76977E01267B36700A0681D /* Words.m */,
+				C76977E21267B3D900A0681D /* Historicals.h */,
+				C76977E31267B3D900A0681D /* Historicals.m */,
+				C76977E51267B44900A0681D /* Challenges.h */,
+				C76977E61267B44900A0681D /* Challenges.m */,
 			);
 			name = RandomFacts;
 			sourceTree = "<group>";
@@ -193,6 +218,11 @@
 				1D3623260D0F684500981E51 /* DailyAppAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* DailiesController.m in Sources */,
 				ACC795B31263DF4000D6F0F4 /* RandomFact.m in Sources */,
+				C76977DB1267B20700A0681D /* Quote.m in Sources */,
+				C76977DE1267B2F700A0681D /* Record.m in Sources */,
+				C76977E11267B36700A0681D /* Words.m in Sources */,
+				C76977E41267B3D900A0681D /* Historicals.m in Sources */,
+				C76977E71267B44900A0681D /* Challenges.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
