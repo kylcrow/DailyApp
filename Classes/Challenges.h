@@ -16,7 +16,7 @@
 	NSInteger* visited;
 }
 
-@property (nonatomic, retain) NSString* challeneges;
+@property (nonatomic, retain) NSString* challenges;
 @property (nonatomic, retain) NSDate* date;
 @property (readwrite) NSInteger* visited;
 
