@@ -9,6 +9,11 @@
 #import "DailyAppAppDelegate.h"
 #import "DailiesController.h"
 #import "RandomFact.h"
+#import "Challenges.h"
+#import "Quote.h"
+#import "Record.h"
+#import "Words.h"
+#import "Historicals.h"
 
 static NSUInteger kNumberOfPages = 6;
 
@@ -21,7 +26,7 @@ static NSUInteger kNumberOfPages = 6;
 
 @implementation DailyAppAppDelegate
 
-@synthesize window, pageControl, scrollView, viewControllers, randomFacts;
+@synthesize window, pageControl, scrollView, viewControllers, randomFacts, challenges, quotes, records, words, historicals;
 @synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6;
 
 #pragma mark -
@@ -178,6 +183,11 @@ static NSUInteger kNumberOfPages = 6;
 	
 	// Query the database for all animal records and construct the "animals" array
 	[self readRandomFactsFromDatabase];
+	[self readQuotesFromDatabase];
+	[self readRecordsFromDatabase];
+	[self readWordsFromDatabase];
+	[self readChallengesFromDatabase];
+	[self readHistoricalsFromDatabase];
 	
 	
 	
@@ -254,26 +264,19 @@ static NSUInteger kNumberOfPages = 6;
 
 -(void) checkAndCreateDatabase{
 	// Check if the SQL database has already been saved to the users phone, if not then copy it over
-	BOOL success;
-	
+	BOOL success;	
 	// Create a FileManager object, we will use this to check the status
 	// of the database and to copy it over if required
-	NSFileManager *fileManager = [NSFileManager defaultManager];
-	
+	NSFileManager *fileManager = [NSFileManager defaultManager];	
 	// Check if the database has already been created in the users filesystem
-	success = [fileManager fileExistsAtPath:databasePath];
-	
+	success = [fileManager fileExistsAtPath:databasePath];	
 	// If the database already exists then return without doing anything
-	if(success) return;
-	
-	// If not then proceed to copy the database from the application to the users filesystem
-	
+	if(success) return;	
+	// If not then proceed to copy the database from the application to the users filesystem	
 	// Get the path to the database in the application package
-	NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName];
-	
+	NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName];	
 	// Copy the database from the package to the users filesystem
 	[fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
-	
 	[fileManager release];
 }
 
@@ -311,9 +314,177 @@ static NSUInteger kNumberOfPages = 6;
 		
 	}
 	sqlite3_close(database);
-	
 }
 
+-(void) readChallengesFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	challenges = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Challenge, Date, Visited from Challenges";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aChallenge = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				Challenges *challenge = [[Challenges alloc] initWithFact:aChallenge date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[challenges addObject:challenge];
+				[challenge release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+	}
+	sqlite3_close(database);
+}
+
+-(void) readQuotesFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	quotes = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Quote, Date, Visited from Quotes";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aQuote = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				Quote *quote = [[Quote alloc] initWithFact:aQuote date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[quotes addObject:quote];
+				[quote release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+	}
+	sqlite3_close(database);
+}
+
+-(void) readRecordsFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	records = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Record, Date, Visited from Records";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aRecord = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				Record *record = [[Record alloc] initWithFact:aRecord date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[records addObject:records];
+				[record release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+	}
+	sqlite3_close(database);
+}
+
+-(void) readWordsFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	words = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Word, Date, Visited from Words";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aWords = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				Words *word = [[Words alloc] initWithFact:aWords date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[words addObject:word];
+				[word release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+	}
+	sqlite3_close(database);
+}
+
+-(void) readHistoricalsFromDatabase {
+	// Setup the database object
+	sqlite3 *database;
+	
+	// Init the animals Array
+	historicals = [[NSMutableArray alloc] init];
+	
+	// Open the database from the users filessytem
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Setup the SQL Statement and compile it for faster access
+		const char *sqlStatement = "select Historical, Date, Visited from Historicals";
+		sqlite3_stmt *compiledStatement;
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// Loop through the results and add them to the feeds array
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// Read the data from the result row
+				NSString *aHistorical = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 0)];
+				NSDate *aDate = [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(compiledStatement, 1)];
+				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
+				
+				// Create a new animal object with the data from the database
+				Historicals *historical = [[Historicals alloc] initWithFact:aHistorical date:aDate visited:aVisited];
+				
+				// Add the animal object to the animals Array
+				[historicals addObject:historical];
+				[historical release];
+			}
+		}
+		// Release the compiled statement from memory
+		sqlite3_finalize(compiledStatement);
+	}
+	sqlite3_close(database);
+}
 
 // At the begin of scroll dragging, reset the boolean used when scrolls originate from the UIPageControl
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {

@@ -22,6 +22,11 @@
 	
 	// Array to store the animal objects
 	NSMutableArray *randomFacts;
+	NSMutableArray *challenges;
+	NSMutableArray *quotes;
+	NSMutableArray *records;
+	NSMutableArray *historicals;
+	NSMutableArray *words;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -37,6 +42,11 @@
 @property (nonatomic, retain) IBOutlet UIButton *btnPage6;
 
 @property (nonatomic, retain) NSMutableArray *randomFacts;
+@property (nonatomic, retain) NSMutableArray *challenges;
+@property (nonatomic, retain) NSMutableArray *quotes;
+@property (nonatomic, retain) NSMutableArray *words;
+@property (nonatomic, retain) NSMutableArray *historicals;
+@property (nonatomic, retain) NSMutableArray *records;
 
 - (IBAction)changePage:(id)sender;
 - (IBAction)gotoPageOne:(id)sender;
