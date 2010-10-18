@@ -410,7 +410,7 @@ static NSUInteger kNumberOfPages = 6;
 				Record *record = [[Record alloc] initWithRecord:aRecord date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
-				[records addObject:records];
+				[records addObject:record];
 				[record release];
 			}
 		}

@@ -12,6 +12,10 @@
 #import "DailyAppAppDelegate.h"
 #import "RandomFact.h"
 #import "Quote.h"
+#import "Record.h"
+#import "Words.h"
+#import "Historicals.h"
+#import "Challenges.h"
 
 static NSArray *__pageControlColorList = nil;
 
@@ -56,6 +60,10 @@ static NSArray *__pageControlColorList = nil;
 	DailyAppAppDelegate *del = (DailyAppAppDelegate *)[[UIApplication sharedApplication] delegate];
 	RandomFact *temp = (RandomFact *)[del.randomFacts objectAtIndex:arc4random() % 3];
 	Quote *temp2 = (Quote *)[del.quotes objectAtIndex:arc4random() % 3];
+	Record *temp3 = (Record *)[del.records objectAtIndex:arc4random() % 3];
+	Words *temp4 = (Words *)[del.words objectAtIndex:arc4random() % 3];
+	Historicals *temp5 = (Historicals *)[del.historicals objectAtIndex:arc4random() % 3];
+	Challenges *temp6 = (Challenges *)[del.challenges objectAtIndex:arc4random() % 2];
 	
 	if (del.count == 0) {
 		txtRandomFact.text = temp.fact;
@@ -64,16 +72,16 @@ static NSArray *__pageControlColorList = nil;
 		txtRandomFact.text = temp2.quote;
 	} 
 	if (del.count == 2) {
-		txtRandomFact.text = temp.fact;
+		txtRandomFact.text = temp3.record;
 	} 
 	if (del.count == 3) {
-		txtRandomFact.text = temp2.quote;
+		txtRandomFact.text = temp4.words;
 	} 
 	if (del.count == 4) {
-		txtRandomFact.text = temp.fact;
+		txtRandomFact.text = temp5.historicals;
 	} 
 	if (del.count == 5) {
-		txtRandomFact.text = temp2.quote;
+		txtRandomFact.text = temp6.challenges;
 	} 
 	
 }
