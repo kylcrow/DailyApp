@@ -272,8 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>22</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +296,7 @@
 							<real>243</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>2 105 1440 773 0 0 1440 878 </string>
+						<string>3 105 1440 773 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>ACBA7F1A126CF9D2000A48C8</string>
+										<string>ACBA7FAA126D0B14000A48C8</string>
 										<key>history</key>
 										<array>
 											<string>AC8EDF9E125915E50021DCA7</string>
@@ -340,10 +339,10 @@
 											<string>ACC796A11267C00600D6F0F4</string>
 											<string>ACC796A21267C00600D6F0F4</string>
 											<string>ACC796A31267C00600D6F0F4</string>
-											<string>ACC796A51267C00600D6F0F4</string>
-											<string>ACC796A61267C00600D6F0F4</string>
-											<string>ACBA7EB9126CF5B2000A48C8</string>
-											<string>ACBA7F12126CF99A000A48C8</string>
+											<string>ACBA7F88126D0A14000A48C8</string>
+											<string>ACBA7F9E126D0AC9000A48C8</string>
+											<string>ACBA7FA8126D0B14000A48C8</string>
+											<string>ACBA7FA9126D0B14000A48C8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,7 +356,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1175, 727}}</string>
 								<key>RubberWindowFrame</key>
-								<string>2 105 1440 773 0 0 1440 878 </string>
+								<string>3 105 1440 773 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -377,7 +376,7 @@
 								<key>Frame</key>
 								<string>{{0, 732}, {1175, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>2 105 1440 773 0 0 1440 878 </string>
+								<string>3 105 1440 773 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,7 +540,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>ACBA7F1B126CF9D2000A48C8</string>
+		<string>ACBA7FA7126D0AF9000A48C8</string>
+		<string>ACBA7F25126CFA58000A48C8</string>
 		<string>ACBA7EAF126CF3EF000A48C8</string>
 		<string>ACBA7EB0126CF3EF000A48C8</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -550,7 +550,7 @@
 		<string>/Users/kylcrow/Desktop/DailyApp/DailyApp/DailyApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>2 105 1440 773 0 0 1440 878 </string>
+	<string>3 105 1440 773 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -876,6 +876,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -1172,8 +1174,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>ACC7960F1263E81B00D6F0F4</string>
-				<string>ACC796101263E81B00D6F0F4</string>
+				<string>ACBA7F25126CFA58000A48C8</string>
+				<string>ACBA7F26126CFA58000A48C8</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1182,7 +1184,7 @@
 			<key>WindowString</key>
 			<string>21 446 744 409 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
-			<string>ACC7960F1263E81B00D6F0F4</string>
+			<string>ACBA7F25126CFA58000A48C8</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

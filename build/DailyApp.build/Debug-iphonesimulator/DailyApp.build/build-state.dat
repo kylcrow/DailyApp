@@ -1,7 +1,7 @@
 TDailyApp
 v7
 r0
-t309131765.789334
+t309136174.498498
 cCheck dependencies
 cProcessInfoPlistFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Info.plist DailyApp-Info.plist
 cCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
@@ -211,25 +211,26 @@ s543
 i<UIKit/UIKit.h>
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m
-c000000004CB783C50000000000000AEC
-t1287095237
-s2796
+c000000004CBCD2D10000000000000C97
+t1287443153
+s3223
 i<stdlib.h>
 i"DailiesController.h"
 i"DailyAppAppDelegate.h"
 i"RandomFact.h"
+i"Quote.h"
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.h
-c000000004CB780DF0000000000000786
-t1287094495
-s1926
+c000000004CBCD37800000000000007B4
+t1287443320
+s1972
 i<UIKit/UIKit.h>
 i<sqlite3.h>
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m
-c000000004CBCC2510000000000005339
-t1287438929
-s21305
+c000000004CBCD27D00000000000052D6
+t1287443069
+s21206
 i"DailyAppAppDelegate.h"
 i"DailiesController.h"
 i"RandomFact.h"
@@ -353,8 +354,8 @@ t1287438920
 s9888
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o
-t1287438920
-s48572
+t1287443321
+s49904
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList
 c000000004CBCC24600000000000004A1
@@ -362,8 +363,8 @@ t1287438918
 s1185
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o
-t1287438929
-s96724
+t1287443321
+s96616
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/FirstViewController.o
 t1286132740
@@ -430,11 +431,11 @@ t2
 s0
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-t1287438929
+t1287443321
 s272
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM
-t1287438929
+t1287443321
 s102
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Archive.nib
@@ -450,8 +451,8 @@ t1287438919
 s2503
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-t1287438929
-s61440
+t1287443321
+s61784
 
 N/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyDB.sql
 t2
@@ -623,7 +624,7 @@ lSLF07#2@55"Analyze /Users/kylcrow/Desktop/DailyApp/DailyApp/main.m309131383#309
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies309131765#309131765#0(0"0(0#1#0"8614979936#0"0#
+lSLF07#2@18"Check dependencies309136174#309136174#0(0"0(0#1#0"8613761728#0"0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/Challenges.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/Challenges.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309131720.543290
@@ -652,8 +653,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/chiefeditorzach/Desktop/DailyApp/Classes/DailiesController.m308531494#308531494#0(0"0(0#0#67"/Users/chiefeditorzach/Desktop/DailyApp/Classes/DailiesController.m8611485024#2041"    cd /Users/chiefeditorzach/Desktop/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator -I/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/include -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/LK/LK5ykIsIEpe4DWbSGpvP5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-ddijfzcspumbcbbtiudogfwlniih/DailyApp_Prefix.pch -c /Users/chiefeditorzach/Desktop/DailyApp/Classes/DailiesController.m -o /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309131720.238261
-e309131720.371307
+s309136120.885264
+e309136121.045771
 r1
 xCompileC
 xbuild/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o
@@ -662,7 +663,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m309131720#309131720#0(0"0(0#0#68"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m8607415776#2052"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o0#
+lSLF07#2@76"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m309136120#309136121#0(0"0(0#0#68"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m8615770208#2052"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailiesController.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailiesController.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o /Users/chiefeditorzach/Desktop/DailyApp/Classes/DailyAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s308531864.388492
@@ -678,8 +679,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/chiefeditorzach/Desktop/DailyApp/Classes/DailyAppAppDelegate.m308531864#308531864#0(0"0(0#0#69"/Users/chiefeditorzach/Desktop/DailyApp/Classes/DailyAppAppDelegate.m7307761437599099904#2045"    cd /Users/chiefeditorzach/Desktop/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator -I/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/include -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/LK/LK5ykIsIEpe4DWbSGpvP5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-ddijfzcspumbcbbtiudogfwlniih/DailyApp_Prefix.pch -c /Users/chiefeditorzach/Desktop/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s309131729.459984
-e309131729.825681
+s309136120.884222
+e309136121.127215
 r1
 xCompileC
 xbuild/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o
@@ -689,29 +690,29 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate applicationDidFinishLaunching:]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: 'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: (Messages without a matching method signature
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: will be assumed to return 'id' and accept
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: '...' as arguments.)
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:185: warning: 'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:186: warning: 'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:187: warning: 'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:188: warning: 'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:189: warning: 'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:190: warning: 'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: 'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: (Messages without a matching method signature
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: will be assumed to return 'id' and accept
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: '...' as arguments.)
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:187: warning: 'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:188: warning: 'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:189: warning: 'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:190: warning: 'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:191: warning: 'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:192: warning: 'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRandomFactsFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:300: warning: initialization makes pointer from integer without a cast
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:302: warning: initialization makes pointer from integer without a cast
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readChallengesFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:337: warning: initialization makes pointer from integer without a cast
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:339: warning: initialization makes pointer from integer without a cast
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readQuotesFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:371: warning: initialization makes pointer from integer without a cast
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:373: warning: initialization makes pointer from integer without a cast
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRecordsFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:405: warning: initialization makes pointer from integer without a cast
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:407: warning: initialization makes pointer from integer without a cast
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readWordsFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:439: warning: initialization makes pointer from integer without a cast
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:441: warning: initialization makes pointer from integer without a cast
 o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readHistoricalsFromDatabase]':
-o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:473: warning: initialization makes pointer from integer without a cast
-lSLF07#2@78"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#309131729#0(3247"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate applicationDidFinishLaunching:]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: 'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: (Messages without a matching method signature/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: will be assumed to return 'id' and accept/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:182: warning: '...' as arguments.)/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:185: warning: 'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:186: warning: 'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:187: warning: 'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:188: warning: 'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:189: warning: 'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:190: warning: 'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRandomFactsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:300: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readChallengesFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:337: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readQuotesFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:371: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRecordsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:405: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readWordsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:439: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readHistoricalsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:473: warning: initialization makes pointer from integer without a cast14(22@66"'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'309131729#141#152#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#182#0#182#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309131729#293#131#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#182#0#182#0#0"0(22@66"'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'309131729#657#152#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#185#0#185#0#26"'*' may not respond to '*'0(22@71"'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'309131729#809#157#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#186#0#186#0#26"'*' may not respond to '*'0(22@67"'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'309131729#966#153#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#187#0#187#0#26"'*' may not respond to '*'0(22@65"'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'309131729#1119#151#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#188#0#188#0#26"'*' may not respond to '*'0(22@70"'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'309131729#1270#156#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#189#0#189#0#26"'*' may not respond to '*'0(22@71"'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'309131729#1426#157#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#190#0#190#0#26"'*' may not respond to '*'0(22@56"Initialization makes pointer from integer without a cast309131729#1721#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#300#0#300#0#0"0(22@56"Initialization makes pointer from integer without a cast309131729#2000#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#337#0#337#0#0"0(22@56"Initialization makes pointer from integer without a cast309131729#2275#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#371#0#371#0#0"0(22@56"Initialization makes pointer from integer without a cast309131729#2551#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#405#0#405#0#0"0(22@56"Initialization makes pointer from integer without a cast309131729#2825#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#439#0#439#0#0"0(22@56"Initialization makes pointer from integer without a cast309131729#3105#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309131729#473#0#473#0#0"0(0#0#70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m8614500192#2056"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o0#
+o/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:475: warning: initialization makes pointer from integer without a cast
+lSLF07#2@78"Compile /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309136120#309136121#0(3247"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate applicationDidFinishLaunching:]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: 'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: (Messages without a matching method signature/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: will be assumed to return 'id' and accept/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:184: warning: '...' as arguments.)/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:187: warning: 'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:188: warning: 'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:189: warning: 'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:190: warning: 'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:191: warning: 'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:192: warning: 'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRandomFactsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:302: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readChallengesFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:339: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readQuotesFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:373: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRecordsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:407: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readWordsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:441: warning: initialization makes pointer from integer without a cast/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readHistoricalsFromDatabase]':/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:475: warning: initialization makes pointer from integer without a cast14(22@66"'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'309136120#141#152#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#184#0#184#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309136120#293#131#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#184#0#184#0#0"0(22@66"'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'309136120#657#152#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#187#0#187#0#26"'*' may not respond to '*'0(22@71"'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'309136120#809#157#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#188#0#188#0#26"'*' may not respond to '*'0(22@67"'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'309136120#966#153#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#189#0#189#0#26"'*' may not respond to '*'0(22@65"'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'309136120#1119#151#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#190#0#190#0#26"'*' may not respond to '*'0(22@70"'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'309136120#1270#156#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#191#0#191#0#26"'*' may not respond to '*'0(22@71"'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'309136120#1426#157#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#192#0#192#0#26"'*' may not respond to '*'0(22@56"Initialization makes pointer from integer without a cast309136121#1721#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#302#0#302#0#0"0(22@56"Initialization makes pointer from integer without a cast309136121#2000#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#339#0#339#0#0"0(22@56"Initialization makes pointer from integer without a cast309136121#2275#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#373#0#373#0#0"0(22@56"Initialization makes pointer from integer without a cast309136121#2551#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#407#0#407#0#0"0(22@56"Initialization makes pointer from integer without a cast309136121#2825#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#441#0#441#0#0"0(22@56"Initialization makes pointer from integer without a cast309136121#3105#142#0(6@70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m309135869#475#0#475#0#0"0(0#0#70"/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m8615961344#2056"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-generated-files.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-own-target-headers.hmap -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-all-target-headers.hmap -iquote /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DailyApp-project-headers.hmap -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/include -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources/i386 -I/Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/DerivedSources -include /var/folders/0Q/0Q1msppMFZ0WGdLrMpvSrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DailyApp_Prefix-bbabhozohgoqwofewyncmolljcqy/DailyApp_Prefix.pch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyAppAppDelegate.o0#
 
 CCompileC build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/FirstViewController.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s307825540.536808
@@ -909,13 +910,13 @@ x/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.ap
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DailyApp.app.dSYM build/Debug-iphonesimulator/DailyApp.app/DailyApp308531864#308531864#0(0"0(0#0#89"/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp8613868704#451"    cd /Users/chiefeditorzach/Desktop/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp -o /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM0#
 
 CGenerateDSYMFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-s309131729.854293
-e309131729.874945
+s309136121.156879
+e309136121.180254
 r1
 xGenerateDSYMFile
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DailyApp.app.dSYM build/Debug-iphonesimulator/DailyApp.app/DailyApp309131729#309131729#0(0"0(0#0#90"/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp8614829984#454"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/DailyApp.app.dSYM build/Debug-iphonesimulator/DailyApp.app/DailyApp309136121#309136121#0(0"0(0#0#90"/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp8615708544#454"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app.dSYM0#
 
 CLd /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp normal i386
 s308531864.502026
@@ -928,14 +929,14 @@ xi386
 lSLF07#2@94"Link /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp308531864#308531864#0(0"0(0#0#0"8613733024#972"    cd /Users/chiefeditorzach/Desktop/DailyApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator -F/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator -filelist /Users/chiefeditorzach/Desktop/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp0#
 
 CLd /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp normal i386
-s309131729.825771
-e309131729.854191
+s309136121.127307
+e309136121.156776
 r1
 xLd
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp
 xnormal
 xi386
-lSLF07#2@95"Link /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp309131729#309131729#0(0"0(0#0#0"8615086656#989"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -filelist /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp0#
+lSLF07#2@95"Link /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp309136121#309136121#0(0"0(0#0#0"8616092992#989"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -F/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator -filelist /Users/kylcrow/Desktop/DailyApp/DailyApp/build/DailyApp.build/Debug-iphonesimulator/DailyApp.build/Objects-normal/i386/DailyApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app/DailyApp0#
 
 CProcessInfoPlistFile /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app/Info.plist DailyApp-Info.plist
 r0
@@ -1060,10 +1061,10 @@ x/Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.ap
 lSLF07#2@86"Touch /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app308531903#308531903#0(0"0(0#0#0"8613360704#343"    cd /Users/chiefeditorzach/Desktop/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/chiefeditorzach/Desktop/DailyApp/build/Debug-iphonesimulator/DailyApp.app0#
 
 CTouch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-s309131729.875029
-e309131729.878744
+s309136121.180350
+e309136121.182937
 r1
 xTouch
 x/Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app
-lSLF07#2@87"Touch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app309131729#309131729#0(0"0(0#0#0"8614803584#345"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app0#
+lSLF07#2@87"Touch /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app309136121#309136121#0(0"0(0#0#0"8615085760#345"    cd /Users/kylcrow/Desktop/DailyApp/DailyApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Debug-iphonesimulator/DailyApp.app0#
 

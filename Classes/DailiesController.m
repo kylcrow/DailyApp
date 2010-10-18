@@ -11,6 +11,7 @@
 #import "DailiesController.h"
 #import "DailyAppAppDelegate.h"
 #import "RandomFact.h"
+#import "Quote.h"
 
 static NSArray *__pageControlColorList = nil;
 
@@ -54,8 +55,26 @@ static NSArray *__pageControlColorList = nil;
 
 	DailyAppAppDelegate *del = (DailyAppAppDelegate *)[[UIApplication sharedApplication] delegate];
 	RandomFact *temp = (RandomFact *)[del.randomFacts objectAtIndex:arc4random() % 3];
+	Quote *temp2 = (Quote *)[del.quotes objectAtIndex:arc4random() % 3];
 	
-	txtRandomFact.text = temp.fact;
+	if (del.count == 0) {
+		txtRandomFact.text = temp.fact;
+	} 
+	if (del.count == 1) {
+		txtRandomFact.text = temp2.quote;
+	} 
+	if (del.count == 2) {
+		txtRandomFact.text = temp.fact;
+	} 
+	if (del.count == 3) {
+		txtRandomFact.text = temp2.quote;
+	} 
+	if (del.count == 4) {
+		txtRandomFact.text = temp.fact;
+	} 
+	if (del.count == 5) {
+		txtRandomFact.text = temp2.quote;
+	} 
 	
 }
 

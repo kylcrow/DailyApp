@@ -27,6 +27,7 @@
 	NSMutableArray *records;
 	NSMutableArray *historicals;
 	NSMutableArray *words;
+	int count;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -47,6 +48,8 @@
 @property (nonatomic, retain) NSMutableArray *words;
 @property (nonatomic, retain) NSMutableArray *historicals;
 @property (nonatomic, retain) NSMutableArray *records;
+
+@property (readwrite) int count;
 
 - (IBAction)changePage:(id)sender;
 - (IBAction)gotoPageOne:(id)sender;

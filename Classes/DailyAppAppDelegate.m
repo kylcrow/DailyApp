@@ -27,7 +27,7 @@ static NSUInteger kNumberOfPages = 6;
 @implementation DailyAppAppDelegate
 
 @synthesize window, pageControl, scrollView, viewControllers, randomFacts, challenges, quotes, records, words, historicals;
-@synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6;
+@synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6, count;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -36,9 +36,9 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -55,9 +55,9 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -74,9 +74,9 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -94,9 +94,9 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -114,9 +114,9 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -134,9 +134,10 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
+	
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -154,9 +155,10 @@ static NSUInteger kNumberOfPages = 6;
     int page = pageControl.currentPage;
 	
     // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
+	//    [self loadScrollViewWithPage:page - 1];
+	//    [self loadScrollViewWithPage:page];
+	//    [self loadScrollViewWithPage:page + 1];
+	
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -213,8 +215,13 @@ static NSUInteger kNumberOfPages = 6;
     // pages are created on demand
     // load the visible page
     // load the page on either side to avoid flashes when the user starts scrolling
-    [self loadScrollViewWithPage:0];
+    count = 0;
+	[self loadScrollViewWithPage:0];
     [self loadScrollViewWithPage:1];
+    [self loadScrollViewWithPage:2];
+    [self loadScrollViewWithPage:3];
+    [self loadScrollViewWithPage:4];
+    [self loadScrollViewWithPage:5];
 }
 
 - (void)loadScrollViewWithPage:(int)page {
@@ -237,6 +244,7 @@ static NSUInteger kNumberOfPages = 6;
         controller.view.frame = frame;
         [scrollView addSubview:controller.view];
     }
+	count++;
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender {
@@ -253,12 +261,6 @@ static NSUInteger kNumberOfPages = 6;
     int page = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
     pageControl.currentPage = page;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-    [self loadScrollViewWithPage:page - 1];
-    [self loadScrollViewWithPage:page];
-    [self loadScrollViewWithPage:page + 1];
-	
-    // A possible optimization would be to unload the views+controllers which are no longer visible
 }
 
 -(void) checkAndCreateDatabase{
