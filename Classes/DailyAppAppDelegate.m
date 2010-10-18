@@ -171,7 +171,7 @@ static NSUInteger kNumberOfPages = 6;
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	
 	// Setup some globals
-	databaseName = @"DailyDB.sql";
+	databaseName = @"DailyDB.sqlite";
 	
 	// Get the path to the documents directory and append the databaseName
 	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -181,14 +181,13 @@ static NSUInteger kNumberOfPages = 6;
 	// Execute the "checkAndCreateDatabase" function
 	[self checkAndCreateDatabase];
 	
-	// Query the database for all animal records and construct the "animals" array
-	[self readRandomFactsFromDatabase];
+	// Query the database for all animal records and construct the arrays
 	[self readQuotesFromDatabase];
+	[self readRandomFactsFromDatabase];
 	[self readRecordsFromDatabase];
 	[self readWordsFromDatabase];
 	[self readChallengesFromDatabase];
 	[self readHistoricalsFromDatabase];
-	
 	
 	
     // view controllers are created lazily
@@ -314,6 +313,7 @@ static NSUInteger kNumberOfPages = 6;
 		
 	}
 	sqlite3_close(database);
+	
 }
 
 -(void) readChallengesFromDatabase {
@@ -337,7 +337,7 @@ static NSUInteger kNumberOfPages = 6;
 				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Challenges *challenge = [[Challenges alloc] initWithFact:aChallenge date:aDate visited:aVisited];
+				Challenges *challenge = [[Challenges alloc] initWithChallenges:aChallenge date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
 				[challenges addObject:challenge];
@@ -371,7 +371,7 @@ static NSUInteger kNumberOfPages = 6;
 				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Quote *quote = [[Quote alloc] initWithFact:aQuote date:aDate visited:aVisited];
+				Quote *quote = [[Quote alloc] initWithQuote:aQuote date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
 				[quotes addObject:quote];
@@ -405,7 +405,7 @@ static NSUInteger kNumberOfPages = 6;
 				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Record *record = [[Record alloc] initWithFact:aRecord date:aDate visited:aVisited];
+				Record *record = [[Record alloc] initWithRecord:aRecord date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
 				[records addObject:records];
@@ -439,7 +439,7 @@ static NSUInteger kNumberOfPages = 6;
 				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Words *word = [[Words alloc] initWithFact:aWords date:aDate visited:aVisited];
+				Words *word = [[Words alloc] initWithWords:aWords date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
 				[words addObject:word];
@@ -473,7 +473,7 @@ static NSUInteger kNumberOfPages = 6;
 				NSInteger *aVisited = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Historicals *historical = [[Historicals alloc] initWithFact:aHistorical date:aDate visited:aVisited];
+				Historicals *historical = [[Historicals alloc] initWithHistoricals:aHistorical date:aDate visited:aVisited];
 				
 				// Add the animal object to the animals Array
 				[historicals addObject:historical];

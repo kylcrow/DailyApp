@@ -1,7 +1,7 @@
 TDailyApp
 v7
 r0
-t309131623.605964
+t309131609.713270
 cCheck dependencies
 cProcessInfoPlistFile /Users/kylcrow/Desktop/DailyApp/DailyApp/build/Release-iphonesimulator/DailyApp.app/Info.plist DailyApp-Info.plist
 cCompileXIB /Users/kylcrow/Desktop/DailyApp/DailyApp/MainWindow.xib
@@ -285,7 +285,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies309131623#309131623#0(0"0(0#1#0"8602644320#0"0#
+lSLF07#2@18"Check dependencies309131607#309131607#0(0"0(0#1#0"8614356448#0"0#
 
 CCompileC build/DailyApp.build/Release-iphonesimulator/DailyApp.build/Objects-normal/i386/Challenges.o /Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/Challenges.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s309131609.578380
