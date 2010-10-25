@@ -14,6 +14,7 @@
 #import "Record.h"
 #import "Words.h"
 #import "Historicals.h"
+#import "FavoritesController.h"
 
 static NSUInteger kNumberOfPages = 6;
 
@@ -26,7 +27,7 @@ static NSUInteger kNumberOfPages = 6;
 
 @implementation DailyAppAppDelegate
 
-@synthesize window, pageControl, scrollView, viewControllers, randomFacts, challenges, quotes, records, words, historicals;
+@synthesize window, pageControl, scrollView, viewControllers, randomFacts, challenges, quotes, records, words, historicals, tabBar;
 @synthesize btnPage1, btnPage2, btnPage3, btnPage4, btnPage5, btnPage6, count;
 
 #pragma mark -
@@ -34,12 +35,7 @@ static NSUInteger kNumberOfPages = 6;
 
 - (IBAction)changePage:(id)sender {
     int page = pageControl.currentPage;
-	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-    
+
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -54,11 +50,6 @@ static NSUInteger kNumberOfPages = 6;
 	pageControl.currentPage = 0;
     int page = pageControl.currentPage;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-    
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -73,11 +64,6 @@ static NSUInteger kNumberOfPages = 6;
 	pageControl.currentPage = 1;
     int page = pageControl.currentPage;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-    
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -87,17 +73,11 @@ static NSUInteger kNumberOfPages = 6;
 	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
     pageControlUsed = YES;	
 }
-
 
 - (IBAction)gotoPageThree:(id)sender {
 	pageControl.currentPage = 2;
     int page = pageControl.currentPage;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-    
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -107,17 +87,11 @@ static NSUInteger kNumberOfPages = 6;
 	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
     pageControlUsed = YES;	
 }
-
 
 - (IBAction)gotoPageFour:(id)sender {
 	pageControl.currentPage = 3;
     int page = pageControl.currentPage;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-    
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -127,18 +101,11 @@ static NSUInteger kNumberOfPages = 6;
 	// Set the boolean used when scrolls originate from the UIPageControl. See scrollViewDidScroll: above.
     pageControlUsed = YES;	
 }
-
 
 - (IBAction)gotoPageFive:(id)sender {
 	pageControl.currentPage = 4;
     int page = pageControl.currentPage;
 	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-	
-    
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width * page;
@@ -149,16 +116,9 @@ static NSUInteger kNumberOfPages = 6;
     pageControlUsed = YES;	
 }
 
-
 - (IBAction)gotoPageSix:(id)sender {
 	pageControl.currentPage = 5;
     int page = pageControl.currentPage;
-	
-    // load the visible page and the page on either side of it (to avoid flashes when the user starts scrolling)
-	//    [self loadScrollViewWithPage:page - 1];
-	//    [self loadScrollViewWithPage:page];
-	//    [self loadScrollViewWithPage:page + 1];
-	
     
 	// update the scroll view to the appropriate page
     CGRect frame = scrollView.frame;
@@ -171,7 +131,8 @@ static NSUInteger kNumberOfPages = 6;
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	
+
+	tabBar.delegate = self;
 	// Setup some globals
 	databaseName = @"DailyDB.sqlite";
 	
@@ -222,6 +183,28 @@ static NSUInteger kNumberOfPages = 6;
     [self loadScrollViewWithPage:3];
     [self loadScrollViewWithPage:4];
     [self loadScrollViewWithPage:5];
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{
+	if ([item.title isEqualToString:@"Dailies"])
+    {
+		NSLog(@"Dailies");
+		DailiesController *first=[[DailiesController alloc] initWithNibName:@"DailiesController" bundle:nil];
+		[window addSubview:first.view];
+	
+	} else if ([item.title isEqualToString:@"Scores"])
+	{
+		NSLog(@"Scores");
+	} else if ([item.title isEqualToString:@"Archives"])
+	{
+		NSLog(@"Archives");
+	} else if ([item.title isEqualToString:@"Favs"])
+	{
+		NSLog(@"Favs");
+		FavoritesController *second=[[FavoritesController alloc] initWithNibName:@"FavoritesController" bundle:nil];
+		[window addSubview:second.view];
+
+	}	
 }
 
 - (void)loadScrollViewWithPage:(int)page {
@@ -505,7 +488,6 @@ static NSUInteger kNumberOfPages = 6;
      */
 }
 
-
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     /*
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
@@ -513,20 +495,17 @@ static NSUInteger kNumberOfPages = 6;
      */
 }
 
-
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     /*
      Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
      */
 }
 
-
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
 }
-
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     /*

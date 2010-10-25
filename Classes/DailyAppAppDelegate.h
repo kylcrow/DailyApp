@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <sqlite3.h>
 
-@interface DailyAppAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate, UIScrollViewDelegate> {
+@interface DailyAppAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate, UIScrollViewDelegate, UITabBarDelegate> {
     UIWindow *window;
 	UIScrollView *scrollView;
 	UIPageControl *pageControl;
     NSMutableArray *viewControllers;
 	BOOL pageControlUsed;
+	UITabBar *tabBar;
 	
 	// Database variables
 	NSString *databaseName;
@@ -34,6 +35,7 @@
 @property (nonatomic, retain) IBOutlet UIPageControl *pageControl;
 @property (nonatomic, retain) NSMutableArray *viewControllers;
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, retain) IBOutlet UITabBar *tabBar;
 
 @property (nonatomic, retain) IBOutlet UIButton *btnPage1;
 @property (nonatomic, retain) IBOutlet UIButton *btnPage2;

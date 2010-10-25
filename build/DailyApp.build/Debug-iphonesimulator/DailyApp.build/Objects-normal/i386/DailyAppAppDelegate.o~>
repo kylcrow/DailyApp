@@ -1,0 +1,23 @@
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate applicationDidFinishLaunching:]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:145: warning: 'DailyAppAppDelegate' may not respond to '-checkAndCreateDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:145: warning: (Messages without a matching method signature
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:145: warning: will be assumed to return 'id' and accept
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:145: warning: '...' as arguments.)
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:148: warning: 'DailyAppAppDelegate' may not respond to '-readQuotesFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:149: warning: 'DailyAppAppDelegate' may not respond to '-readRandomFactsFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:150: warning: 'DailyAppAppDelegate' may not respond to '-readRecordsFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:151: warning: 'DailyAppAppDelegate' may not respond to '-readWordsFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:152: warning: 'DailyAppAppDelegate' may not respond to '-readChallengesFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:153: warning: 'DailyAppAppDelegate' may not respond to '-readHistoricalsFromDatabase'
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRandomFactsFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:283: warning: initialization makes pointer from integer without a cast
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readChallengesFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:320: warning: initialization makes pointer from integer without a cast
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readQuotesFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:354: warning: initialization makes pointer from integer without a cast
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readRecordsFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:388: warning: initialization makes pointer from integer without a cast
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readWordsFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:422: warning: initialization makes pointer from integer without a cast
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m: In function '-[DailyAppAppDelegate readHistoricalsFromDatabase]':
+/Users/kylcrow/Desktop/DailyApp/DailyApp/Classes/DailyAppAppDelegate.m:456: warning: initialization makes pointer from integer without a cast
